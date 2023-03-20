@@ -355,6 +355,7 @@ figure figcaption {
 
 .text-me {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 50vw;

@@ -57,7 +57,7 @@ const Contact = () => {
                                 <input type="text" class="form-control number" id="exampleFormControlInput1" placeholder="Phone Number:" name="phoneNumber" />
                             </div>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 col">
                             <input type="text" class="form-control subject" id="exampleFormControlInput1" placeholder="Subject(Optional):" name="subject" />
                         </div>
                         <textarea class="form-control message" id="exampleFormControlTextarea1" rows="7" placeholder="Enter your Message" name="message"></textarea>
