@@ -2,14 +2,14 @@ import React from 'react'
 import About from './sections/About'
 import Contact from './sections/Contact'
 import Footer from './sections/Footer'
-import Landing from './sections/Landing'
+import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 
 const App = () => {
   return (
     <>
-      <Landing />
+      <Hero />
       <About />
       <Skills />
       <Projects />
