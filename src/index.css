@@ -62,7 +62,7 @@ body {
 }
 
 /*NAV*/
-.my-nav {
+/* .my-nav {
   display: flex;
   justify-content: space-between;
 }
@@ -103,7 +103,7 @@ body {
 
 .navbar-toggler {
   border-color: transparent !important;
-}
+} */
 
 /*ABOUT*/
 .about-text {
