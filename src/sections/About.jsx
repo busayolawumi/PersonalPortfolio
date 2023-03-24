@@ -18,7 +18,7 @@ const About = () => {
                     {/* <!-- <button>More About Me</button> --> */}
                 </div>
                 <div className="h-[80%] mr-[5%] pb-[20px]">
-                    <img className="w-screen max-w-[30vw] h-full" src={Selfie} alt="Busayo looking all professional" />
+                    {/* <img className="w-screen max-w-[30vw] h-full" src={Selfie} alt="Busayo looking all professional" /> */}
                 </div>
             </section>
         </div>

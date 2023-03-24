@@ -136,46 +136,45 @@ body {
 }
 
 /*OFFERS AND SKILLS*/
-.offers {
+/* .offers {
   width: 80vw;
-}
+} */
 
-.omo .third-section {
+/* .omo .third-section {
   padding-top: 30px;
   padding-bottom: 30px;
   height: auto;
-}
+} */
 
-.offers h2 {
+/* .offers h2 {
   font-size: 30px;
   font-weight: bold;
   padding-top: 20px;
-}
+} */
 
-.skillset {
+/* .skillset {
   width: 50vw;
   margin-right: 5%;
   height: 80%;
-}
+} */
 
-.offer-img {
+/* .offer-img {
   height: 200px;
   width: 200px;
-}
+} */
 
-.what-speak {
+/* .what-speak {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 
-figure figcaption {
+/* figure figcaption {
   text-align: center;
   font-weight: bold;
-
-}
+} */
 
 /*PROJECTS*/
 
