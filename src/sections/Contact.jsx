@@ -1,5 +1,5 @@
 import React from 'react'
-import { MdLocationPin } from 'react-icons/md'
+import { MdLocationPin, MdEmail, MdLocalPhone } from 'react-icons/md'
 
 const Contact = () => {
   return (
@@ -8,64 +8,67 @@ const Contact = () => {
             <section className="bg-[#003554] text-white">
                 <div className="text-center pt-[10vh]">
                     <h2 className="font-semibold text-[30px]">Get In Touch</h2>
-                    <p className='mb-[30px] m-auto w-screen max-w-[80vw]'>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
+                    <p className='m-auto w-screen max-w-[80vw]'>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
                 </div>
                 <div className="h-screen max-h-[87.5vh] flex justify-between items-center">
                     <div className="flex flex-col items-center w-screen max-w-[40vw] h-[80%] ml-[5%] justify-center">
                         <div className="inline-block">
                             <a className='hover:text-[#00a6fb]' href="https://goo.gl/maps/S1r7tEdgowbYjKXDA" target="_blank">
-                                <h3>
-                                    <div className="cont-back">
-                                        <span>
-                                            <i className="fa-solid fa-location-dot fa-2xl"></i>
+                                <h3 className='flex gap-2'>
+                                    <div className="relative top-[-15px] bg-[#051923] rounded-[50%] h-[50px] w-[50px]">
+                                        <span className="relative top-[10px] left-[9px]">
+                                        <MdLocationPin size={32}/>
                                         </span>
                                     </div>
                                     Abuja, F.C.T.
                                 </h3><br />
                             </a>
                             <a className='hover:text-[#00a6fb]' href="mailto:oluwabusayolawumi@gmail.com">
-                                <h3>
-                                    <div className="cont-back">
-                                        <span className="con-span">
-                                            <i className="fa-solid fa-envelope fa-2xl"></i>
+                                <h3 className='flex gap-2'>
+                                    <div className="relative top-[-15px] bg-[#051923] rounded-[50%] h-[50px] w-[50px]">
+                                        <span className="relative top-[10px] left-[9px]">
+                                            <MdEmail size={32}/>
                                         </span>
                                     </div>
                                     oluwabusayolawumi@gmail.com
                                 </h3><br />
                             </a>
                             <a className='hover:text-[#00a6fb]' href="tel: +234 903 118 2727">
-                                <h3>
-                                    <div className="cont-back">
-                                        <span className="con-span">
-                                            <i className="fa-solid fa-phone fa-2xl"></i></span>
+                                <h3 className='flex gap-2'>
+                                    <div className="relative top-[-15px] bg-[#051923] rounded-[50%] h-[50px] w-[50px]">
+                                        <span className="relative top-[10px] left-[9px]">
+                                        <MdLocalPhone size={32}/>
+                                        </span>
                                     </div>
                                     +234 903 118 2727
                                 </h3><br />
                             </a>
                         </div>
-                        <a className="more-button" target="_blank" href="Oluwabusayo's Resume.pdf">Download my Resume</a>
+                        <a className="border rounded-[20px] inline-block py-[12px] px-[50px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]" target="_blank" href="Oluwabusayo's Resume.pdf">Download my Resume</a>
                     </div>
-                    <div className="text-me">
+
+                    {/* MESSAGE SECTION */}
+                    <div className="flex flex-col items-center justify-center w-screen max-w-[50vw] h-[80%] mr-[5%]">
                         <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" />
-                        <div className="mb-3">
-                            <input type="text" className="form-control name" id="exampleFormControlInput1" placeholder="Full Name:" name="fullName" />
+                        <div>
+                            <input type="text" className="w-screen max-w-[42vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
                         </div>
-                        <div className="row">
-                            <div className="mb-3 col">
-                                <input type="text" className="form-control email" id="exampleFormControlInput1" placeholder="Email:" name="emailAddress" />
+                        <div className="grid grid-flow-col gap-9">
+                            <div>
+                                <input type="text" className="w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
                             </div>
-                            <div className="mb-3 col">
-                                <input type="text" className="form-control number" id="exampleFormControlInput1" placeholder="Phone Number:" name="phoneNumber" />
+                            <div>
+                                <input type="text" className="w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
                             </div>
                         </div>
-                        <div className="mb-3 col">
-                            <input type="text" className="form-control subject" id="exampleFormControlInput1" placeholder="Subject(Optional):" name="subject" />
+                        <div>
+                            <input type="text" className="w-screen max-w-[42vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
                         </div>
-                        <textarea className="form-control message" id="exampleFormControlTextarea1" rows="7" placeholder="Enter your Message" name="message"></textarea>
+                        <textarea className="w-screen max-w-[42vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
                     </div>
                 </div>
-                <div className="submit-div">
-                    <button className="submit-button">Submit</button>
+                <div className="text-center pb-[10vh]">
+                    <button className="border rounded-[20px] inline-block py-[15px] px-[70px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
                 </div>
             </section>
         </div>
