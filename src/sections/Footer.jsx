@@ -14,10 +14,10 @@ const Footer = () => {
             <div className="h-screen max-h-[20vh] flex items-end sm:mr-[5%] sm:text-right text-center pb-[30px]">
                 <div>
                     <p>Would you like to support me?</p>
-                    <div className="trans-div">
-                        <a target="_blank" className="semi-transparent-button hover:text-black" href="https://www.buymeacoffee.com/busayolawumi">☕Buy me a coffee</a>
+                    <div>
+                        <a target="_blank" href="https://www.buymeacoffee.com/busayolawumi"><img className='my-[10px] sm:ml-[35%] ml-[17%]' src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
                     </div>
-                    <p>Copyright &copy; 2022 <b className='text-[#00a6fb]'>Olawumi Oluwabusayo.</b></p>
+                    <p>Copyright &copy; 2023 <b className='text-[#00a6fb]'>Olawumi Oluwabusayo.</b></p>
                 </div>
             </div>
         </div>
