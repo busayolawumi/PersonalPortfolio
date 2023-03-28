@@ -511,20 +511,20 @@ body {
   /* .about-pic-div {
       height: 60%;
   } */
-
+/* 
   .proj-name {
       font-size: 50px;
   }
 
   .featured-proj h2 {
       font-size: 25px;
-  }
+  } */
 }
 
 @media (max-width: 1050px) {
-  .visit-btn {
+  /* .visit-btn {
       margin-bottom: 15px;
-  }
+  } */
 }
 
 @media (max-width: 950px) {
@@ -549,29 +549,28 @@ body {
       height: 60%;
   } */
 
-  .proj-name {
+  /* .proj-name {
       font-size: 44px;
   }
 
   .visit-btn {
       margin-bottom: 30px;
-  }
+  } */
 }
 
 @media(max-width: 830px) {
-  .visit-btn {
+  /* .visit-btn {
       margin-bottom: 30px;
-  }
+  } */
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .collapse-color {
       background-color: #003554;
       padding-left: 2vw;
-      /*margin-left: 100px;*/
+      margin-left: 100px;
   }
-
-}
+} */
 
 @media (max-width: 750px) {
   /* .small-desc {
@@ -594,7 +593,7 @@ body {
       font-size: 22px;
   } */
 
-  .about-header {
+  /* .about-header {
       font-size: 30px;
   }
 
@@ -607,18 +606,18 @@ body {
 
   .about-pic {
       width: 100%;
-  }
+  } */
 
-  .proj-name {
+  /* .proj-name {
       font-size: 40px;
   }
 
   .card-div {
       flex-direction: column;
       height: auto;
-  }
+  } */
 
-  .card-img {
+  /* .card-img {
       width: 100%;
       display: flex;
       justify-content: center;
@@ -637,19 +636,19 @@ body {
 
   .visit-btn {
       margin: auto;
-  }
+  } */
 
   /* .offers h2 {
       font-size: 25px;
       text-align: center;
   } */
 
-  .featured-proj h2 {
+  /* .featured-proj h2 {
       font-size: 25px;
       text-align: center;
-  }
+  } */
 
-  .contact-section {
+  /* .contact-section {
       flex-direction: column;
       padding-top: 20px;
       height: auto;
@@ -683,7 +682,7 @@ body {
 
   .name, .email, .number, .subject, .message {
       width: 100%;
-  }
+  } */
 }
 
 @media (max-width: 650px) {
@@ -695,7 +694,7 @@ body {
       font-size: 30px;
   } */
 
-  .about-text {
+  /* .about-text {
       font-size: 20px;
   }
 
@@ -705,7 +704,7 @@ body {
 
   .about-pic-div {
       height: 45vh;
-  }
+  } */
 
   .profileLink-section {
       flex-grow: 0.2;
@@ -713,9 +712,9 @@ body {
 }
 
 @media(max-width: 600px) {
-  .footer {
+  /* .footer {
       flex-direction: column;
-  }
+  } */
 
   .coffee-section {
       margin: auto;
@@ -752,7 +751,7 @@ body {
       font-size: 23px;
   } */
 
-  .about-header {
+  /* .about-header {
       font-size: 22px;
   }
 
@@ -762,7 +761,7 @@ body {
 
   .card-img img {
       height: 40vh;
-  }
+  } */
 
 }
 
@@ -779,13 +778,13 @@ body {
       font-size: 20px;
   } */
 
-  .about-header {
+  /* .about-header {
       font-size: 20px;
   }
 
   .about-text {
       font-size: 16px;
-  }
+  } */
 
   .contact-header p {
       font-size: 14px;
@@ -799,17 +798,17 @@ body {
       font-size: 18px;
   } */
 
-  .about-header {
+  /* .about-header {
       font-size: 18px;
   }
 
   .about-text {
       font-size: 14px;
-  }
+  } */
 
-  .navbar-brand {
+  /* .navbar-brand {
       font-size: 18px;
-  }
+  } */
 
   .contact-header p {
       font-size: 13px;

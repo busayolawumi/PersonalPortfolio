@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='sticky top-0 flex justify-between items-center h-screen max-h-[8vh] mx-auto px-4 text-white bg-[#051923]'>
+      <div className='sticky top-0 z-50 flex justify-between items-center h-screen max-h-[8vh] mx-auto px-4 text-white bg-[#051923]'>
         <h1 className='w-full max-w-[60%] text-xl font-bold text-white hover:text-[#00a6fb]'><a href="#">Olawumi Oluwabusayo</a></h1>
         <ul className='hidden md:flex'>
             <li className='p-4 hover:text-[#00a6fb]'><a href="#about-position">About</a></li>

@@ -10,8 +10,8 @@ const Contact = () => {
                     <h2 className="font-semibold text-[30px]">Get In Touch</h2>
                     <p className='m-auto w-screen max-w-[80vw]'>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
                 </div>
-                <div className="h-screen max-h-[87.5vh] flex justify-between items-center">
-                    <div className="flex flex-col items-center w-screen max-w-[40vw] h-[80%] ml-[5%] justify-center">
+                <div className="lg:h-screen lg:max-h-[87.5vh] flex flex-col lg:flex-row justify-between items-center">
+                    <div className="flex flex-col items-center lg:w-screen lg:max-w-[40vw] h-[80%] lg:ml-[5%] ml-0 justify-center py-10 lg:py-[100px]">
                         <div className="inline-block">
                             <a className='hover:text-[#00a6fb]' href="https://goo.gl/maps/S1r7tEdgowbYjKXDA" target="_blank">
                                 <h3 className='flex gap-2'>
@@ -48,27 +48,27 @@ const Contact = () => {
                     </div>
 
                     {/* MESSAGE SECTION */}
-                    <div className="flex flex-col items-center justify-center w-screen max-w-[50vw] h-[80%] mr-[5%]">
+                    <div className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7">
                         <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" />
                         <div>
-                            <input type="text" className="p-3 w-screen max-w-[42vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
+                            <input type="text" className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
                         </div>
-                        <div className="grid grid-flow-col gap-9">
+                        <div className="grid grid-flow-col gap-5">
                             <div>
-                                <input type="text" className="p-3 w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
+                                <input type="text" className="p-3 w-screen lg:max-w-[20.5vw] max-w-[35vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
                             </div>
                             <div>
-                                <input type="text" className="p-3 w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
+                                <input type="text" className="p-3 w-screen lg:max-w-[20vw] max-w-[32vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
                             </div>
                         </div>
                         <div>
-                            <input type="text" className="p-3 w-screen max-w-[42vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
+                            <input type="text" className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
                         </div>
-                        <textarea className="p-3 w-screen max-w-[42vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
+                        <textarea className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
                     </div>
                 </div>
                 <div className="text-center pb-[10vh]">
-                    <button className="border rounded-[20px] inline-block py-[15px] px-[70px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
+                    <button className="border rounded-[20px] inline-block md:py-[15px] py-[10px] md:px-[70px] px-[60px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
                 </div>
             </section>
         </div>
