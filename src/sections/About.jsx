@@ -5,10 +5,10 @@ const About = () => {
 
   return (
     <>
-        <div className="" id="">
-            <section className="text-white bg-[#051923] h-screen max-h-[92vh] flex justify-around items-center">
-                <div className="w-screen max-w-[60vw] text-[30px] ml-[5%] mr-[20px] pb-[20px]">
-                    <h2 className="text-[#00a6fb] text-[50px] font-semibold">Hello, Oluwabusayo Here...</h2><br />
+        <div>
+            <section className="text-white bg-[#051923] sm:h-screen max-h-[92vh] h-auto sm:pb-0 pb-[30px] sm:pt-0 pt-[30px] flex justify-around items-center sm:flex-row flex-col md:py-[5%] ">
+                <div className="w-screen lg:max-w-[60vw] md:max-w-[55vw] max-w-[70vw] xl:text-[30px] lg:text-[26px] md:text-[24px] sm:text-[22px] ml-[5%] mr-[20px] pb-[20px]">
+                    <h2 className="text-[#00a6fb] xl:text-[50px] lg:text-[40px] md:text-[30px] text-[25px] font-semibold">Hello, Oluwabusayo Here...</h2><br />
                     <p>I'm a Front-End Developer in Abuja, NG.</p>
                     <p>I've been building websites since 2020 with a focus on responsive design, accessibility and pleasing aesthetics.
                     </p>
@@ -17,8 +17,8 @@ const About = () => {
                     </a>
                     {/* <!-- <button>More About Me</button> --> */}
                 </div>
-                <div className="h-[80%] mr-[5%] pb-[20px]">
-                    <img className="w-screen max-w-[30vw] h-full" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrjeNFV5XzUs_EHUPXkBkuNKk02M6f2gK3qv2JQx6piaCwc-JQ2zKjZYBPRQSL8gV9L0&usqp=CAU'} alt="Busayo looking all professional" />
+                <div className="xl:h-[70%] lg:h-[50%] md:h-[40%] sm:h-[40%] sm:w-auto w-screen max-w-[70vw] sm:ml-0 ml-[7%] sm:pt-0 pt-[10px] mr-[5%]">
+                    <img className="w-screen sm:max-w-[30vw] max-w-[100%] h-full" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrjeNFV5XzUs_EHUPXkBkuNKk02M6f2gK3qv2JQx6piaCwc-JQ2zKjZYBPRQSL8gV9L0&usqp=CAU'} alt="Busayo looking all professional" />
                 </div>
             </section>
         </div>

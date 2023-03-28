@@ -4,8 +4,8 @@ import { projectArray } from '../Scripts/projectArray'
 const Projects = () => {
   return (
     <>
-      <div className="container-fluid main" id="projects-position">
-            <section className=" darkBlue-bg h-auto flex items-center justify-center ml-0 pt-[100px] pb-[30px]">
+      <div id="projects-position">
+            <section className="text-white bg-[#051923] h-auto flex items-center justify-center ml-0 pt-[100px] pb-[30px]">
                 <div className="flex flex-col">
                     <h2 className='text-[30px] font-bold pb-[30px]'><u>FEATURED PROJECTS</u></h2>
 

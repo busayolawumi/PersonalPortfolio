@@ -51,20 +51,20 @@ const Contact = () => {
                     <div className="flex flex-col items-center justify-center w-screen max-w-[50vw] h-[80%] mr-[5%]">
                         <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" />
                         <div>
-                            <input type="text" className="w-screen max-w-[42vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
+                            <input type="text" className="p-3 w-screen max-w-[42vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
                         </div>
                         <div className="grid grid-flow-col gap-9">
                             <div>
-                                <input type="text" className="w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
+                                <input type="text" className="p-3 w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
                             </div>
                             <div>
-                                <input type="text" className="w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
+                                <input type="text" className="p-3 w-screen max-w-[19.8vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
                             </div>
                         </div>
                         <div>
-                            <input type="text" className="w-screen max-w-[42vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
+                            <input type="text" className="p-3 w-screen max-w-[42vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
                         </div>
-                        <textarea className="w-screen max-w-[42vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
+                        <textarea className="p-3 w-screen max-w-[42vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
                     </div>
                 </div>
                 <div className="text-center pb-[10vh]">

@@ -6,7 +6,7 @@ const Skills = () => {
     <>
     <div className="text-white bg-[#003554] py-[30px] h-auto flex justify-center" id="skills-position">
                 <div className="w-screen max-w-[80vw]">
-                    <h2 className='text-[30px] font-bold pt-[20px]'><u>LANGUAGES I SPEAK</u></h2>
+                    <h2 className='text-center sm:text-left text-[25px] sm:text-[30px] font-bold pt-[40px]'><u>LANGUAGES I SPEAK</u></h2>
                     <br /><br />
                     <div className="flex flex-wrap justify-center">
                         
