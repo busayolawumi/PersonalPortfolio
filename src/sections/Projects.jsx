@@ -34,7 +34,7 @@ const Projects = () => {
                     ))}
                     
                     <div className="text-center pb-[7vh] m-auto">
-                        <a href="#/" className="border rounded-[20px] inline-block py-[12px] px-[50px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">View More</a>
+                        <a href="https://github.com/busayolawumi?tab=repositories" target="_blank" className="border rounded-[20px] inline-block py-[12px] px-[50px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">View More</a>
                     </div>
                 </div><br />
             </section>

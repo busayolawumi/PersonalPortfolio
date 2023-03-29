@@ -17,8 +17,8 @@ const About = () => {
                     </a>
                     {/* <!-- <button>More About Me</button> --> */}
                 </div>
-                <div className="xl:h-[70%] lg:h-[50%] md:h-[40%] sm:h-[40%] sm:w-auto w-screen max-w-[70vw] sm:ml-0 ml-[7%] sm:pt-0 pt-[10px] mr-[5%]">
-                    <img className="w-screen sm:max-w-[30vw] max-w-[100%] h-full" src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrjeNFV5XzUs_EHUPXkBkuNKk02M6f2gK3qv2JQx6piaCwc-JQ2zKjZYBPRQSL8gV9L0&usqp=CAU'} alt="Busayo looking all professional" />
+                <div className="xl:h-[70%] lg:h-[50%] md:h-[40%] sm:h-[40%] sm:w-auto w-screen max-w-[55vw] sm:ml-0 ml-[7%] sm:pt-0 pt-[10px] mr-[5%]">
+                    <img className="w-screen sm:max-w-[30vw] max-w-[100%] h-full" src={Selfie} alt="Busayo looking all professional" />
                 </div>
             </section>
         </div>
