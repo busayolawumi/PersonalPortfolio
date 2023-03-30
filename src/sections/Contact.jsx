@@ -1,7 +1,32 @@
 import React from 'react'
 import { MdLocationPin, MdEmail, MdLocalPhone } from 'react-icons/md'
+import * as yup from 'yup'
+import { yupResolver } from '@hookform/resolvers/yup'
+import { useForm } from 'react-hook-form'
 
 const Contact = () => {
+
+    const messageSchema = yup.object().shape({
+        name: yup.string().required('Username is required'),
+        email: yup.string().email().required('Email is required'),
+        phone: yup.number(),
+        subject: yup.string(),
+        message: yup.string().required("You can't send an empty message")
+    })
+    
+    const { register, handleSubmit, watch, reset } = useForm({
+        mode: 'onSubmit',
+        reValidateMode: 'onChange', 
+        criteriaMode: 'all', 
+        defaultValues: {name: '', email: '', phone: '', subject: '', message: ''},
+        resolver: yupResolver(messageSchema) 
+      })
+    
+    const submitForm = (data) => {
+        console.log(data);
+        reset();
+    }
+
   return (
     <>
       <div id="contacts-position">
@@ -49,26 +74,28 @@ const Contact = () => {
 
                     {/* MESSAGE SECTION */}
                     <div className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7">
-                        <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" />
-                        <div>
-                            <input type="text" className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name:" name="fullName" />
-                        </div>
-                        <div className="grid grid-flow-col gap-5">
+                        <form onSubmit={handleSubmit(submitForm)} >
                             <div>
-                                <input type="text" className="p-3 w-screen lg:max-w-[20.5vw] max-w-[35vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email:" name="emailAddress" />
+                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] mb-[30px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} />
+                            </div>
+                            <div className="grid grid-flow-col gap-5">
+                                <div>
+                                    <input className="p-3 w-screen lg:max-w-[20.5vw] max-w-[35vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Email*:" {...register('email')} />
+                                </div>
+                                <div>
+                                    <input className="p-3 w-screen lg:max-w-[20vw] max-w-[32vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" {...register('phone')} />
+                                </div>
                             </div>
                             <div>
-                                <input type="text" className="p-3 w-screen lg:max-w-[20vw] max-w-[32vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" name="phoneNumber" />
+                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject:" {...register('subject')}/>
                             </div>
-                        </div>
-                        <div>
-                            <input type="text" className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject(Optional):" name="subject" />
-                        </div>
-                        <textarea className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message" name="message"></textarea>
+                            <textarea className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message*:" {...register('message')}></textarea>
+                
+                        </form>
                     </div>
                 </div>
                 <div className="text-center pb-[10vh]">
-                    <button className="border rounded-[20px] inline-block md:py-[15px] py-[10px] md:px-[70px] px-[60px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
+                    <button type='submit' className="border rounded-[20px] inline-block md:py-[15px] py-[10px] md:px-[70px] px-[60px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
                 </div>
             </section>
         </div>
