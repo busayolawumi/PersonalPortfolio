@@ -3,13 +3,14 @@ import { MdLocationPin, MdEmail, MdLocalPhone } from 'react-icons/md'
 import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { useForm } from 'react-hook-form'
+import Swal from 'sweetalert2'
 
 const Contact = () => {
 
     const messageSchema = yup.object().shape({
         name: yup.string().required('Username is required'),
         email: yup.string().email("Must be a valid Email Address").required('Email is required'),
-        phone: yup.string('Must be a valid number'),
+        phone: yup.string(),
         subject: yup.string(),
         message: yup.string().required("You can't send an empty message")
     })
@@ -23,9 +24,18 @@ const Contact = () => {
       })
     
     const submitForm = (data) => {
-        console.log('Submitted')
+        Swal.fire({
+            title: 'Message Sent!',
+            text: 'Thank you for texting me',
+            icon: 'success',
+            iconColor: '#00a6fb',
+            confirmButtonColor: '#00a6fb',
+            background: '#051923',
+            color: 'white'
+        }).then(() => {
+            reset();
+        })
         console.log(data);
-        reset();
     }
 
 
