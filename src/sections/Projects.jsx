@@ -10,7 +10,7 @@ const Projects = () => {
                     <h2 className='text-[30px] font-bold pb-[30px]'><u>FEATURED PROJECTS</u></h2>
 
                     {projectArray.map(({ imgLink, name, description, languages, website, isHr }) => (
-                        <>
+                        <div key={name}>
                     <div className="bg-[#003554] h-auto lg:h-screen lg:max-h-[50vh] w-screen max-w-[80vw] flex lg:flex-row flex-col m-auto">
                         <div className="lg:w-screen lg:max-w-[30vw] w-full box-border">
                             <img className="h-screen lg:max-h-[50vh]  max-h-[45vh] w-full" src={imgLink} alt="" />
@@ -30,7 +30,7 @@ const Projects = () => {
                     <br />
                     {isHr ? <hr /> : null}
                     <br />
-                    </>
+                    </div>
                     ))}
                     
                     <div className="text-center pb-[7vh] m-auto">
