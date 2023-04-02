@@ -1,5 +1,5 @@
 import React from 'react'
-import Selfie from '../assets/selfie.png'
+import Selfie from '../assets/Selfie.png'
 
 const About = () => {
 
