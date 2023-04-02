@@ -31,7 +31,7 @@ export const projectArray = [
     {
         imgLink : Pingpongpic,
         name: "Ping Pong Scorer",
-        description: "It's a bit tricky when keeping count for a game of Ping Pong/Table Tennis, so I decided I should make a simple Ping Pong Score Keeper for that.",
+        description: "It's a bit tricky when keeping count for a game of Ping Pong/Table Tennis, so this is a simple Ping Pong Score Keeper that does the job for you.",
         languages: "• HTML • Bulma • JavaScript",
         website: "https://ping-pong-counter.vercel.app/",
         isHr: false

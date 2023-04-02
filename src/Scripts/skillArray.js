@@ -11,7 +11,7 @@ export const skillArray = [
     {
         imgSrc: Reacticon,
         altText: "React Icon",
-        skill: "REACT",
+        skill: "REACTJS",
     },
     {
         imgSrc: Javascripticon,

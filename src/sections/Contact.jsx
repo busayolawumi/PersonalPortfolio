@@ -4,6 +4,7 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import { useForm } from 'react-hook-form'
 import Swal from 'sweetalert2'
+import axios from 'axios'
 
 const Contact = () => {
 
@@ -24,7 +25,13 @@ const Contact = () => {
       })
     
     const submitForm = (data) => {
-        Swal.fire({
+        //using axios to send form details through formSubmit to my email
+        //this works only for browsers that are JS enabled
+        axios.defaults.headers.post['Content-Type'] = 'application/json';
+        const info = {name: data.name, email: data.email, phone: data.phone, subject: data.subject, message: data.message}
+        axios.post('https://formsubmit.co/ajax/41a70a36c595c758e161c8c29c14fb29', info)
+        .then(
+         Swal.fire({
             title: 'Message Sent!',
             text: 'Thank you for texting me',
             icon: 'success',
@@ -32,12 +39,23 @@ const Contact = () => {
             confirmButtonColor: '#00a6fb',
             background: '#051923',
             color: 'white'
-        }).then(() => {
+        })   
+        )
+        .then(() => {
             reset();
         })
-        console.log(data);
+        .catch(() =>{
+            Swal.fire({
+                title: 'Something went wrong!',
+                text: 'Please try again later',
+                icon: 'error',
+                confirmButtonColor: '#00a6fb',
+                background: '#051923',
+                color: 'white'
+          })
+        }
+          );
     }
-
 
   return (
     <>
@@ -88,7 +106,7 @@ const Contact = () => {
                     {/* MESSAGE SECTION */}
                     <div className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7 text-black">
                             <div>
-                                <input  className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} name="name" />
+                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} name="name" />
                                 <p className='text-red-600 mb-[30px]'>{errors?.name?.message}</p>
                             </div>
                             <div className="grid grid-flow-col gap-5">
