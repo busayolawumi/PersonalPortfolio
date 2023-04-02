@@ -86,30 +86,30 @@ const Contact = () => {
                     </div>
 
                     {/* MESSAGE SECTION */}
-                    <div className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7  text-black">
+                    <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7 text-black">
                             <div>
-                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} />
+                                <input  className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} name="name" />
                                 <p className='text-red-600 mb-[30px]'>{errors?.name?.message}</p>
                             </div>
                             <div className="grid grid-flow-col gap-5">
                                 <div>
-                                    <input className="p-3 w-screen lg:max-w-[20.5vw] max-w-[35vw] py-[10px] rounded-[10px]" placeholder="Email*:" {...register('email')} />
+                                    <input className="p-3 w-screen lg:max-w-[20.5vw] max-w-[35vw] py-[10px] rounded-[10px]" placeholder="Email*:" {...register('email')} name="email" />
                                     <p className='text-red-600 mb-[30px]'>{errors?.email?.message}</p>
                                 </div>
                                 <div>
-                                    <input className="p-3 w-screen lg:max-w-[20vw] max-w-[32vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" {...register('phone')} />
+                                    <input className="p-3 w-screen lg:max-w-[20vw] max-w-[32vw] py-[10px] mb-[30px] rounded-[10px]" placeholder="Phone Number:" {...register('phone')}  name="phone" />
                                     <p className='text-red-600'>{errors?.phone?.message}</p>
                                 </div>
                             </div>
                             <div>
-                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject:" {...register('subject')}/>
+                                <input className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] py-[10px] mb-[20px] rounded-t-[10px]" placeholder="Subject:" {...register('subject')} name="subject"/>
                                 <p className='text-red-600'>{errors?.subject?.message}</p>
                             </div>
                             <div>
-                            <textarea className=" p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message*:" {...register('message')}></textarea>
+                            <textarea className=" p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message*:" {...register('message')} name="message"/>
                             <p className='text-red-600'>{errors?.message?.message}</p>
                             </div>
-                    </div>
+                    </form>
                 </div>
                 <div className="text-center pb-[10vh]">
                     <button type='submit' className="border rounded-[20px] inline-block md:py-[15px] py-[10px] md:px-[70px] px-[60px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
