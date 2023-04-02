@@ -43,7 +43,7 @@ const Contact = () => {
     <>
       <div id="contacts-position">
             <section className="bg-[#003554] text-white">
-            <form onSubmit={handleSubmit(submitForm)} >
+            <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" onSubmit={handleSubmit(submitForm)} >
                 <div className="text-center pt-[10vh]">
                     <h2 className="font-semibold text-[30px]">Get In Touch</h2>
                     <p className='m-auto w-screen max-w-[80vw]'>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
@@ -86,7 +86,7 @@ const Contact = () => {
                     </div>
 
                     {/* MESSAGE SECTION */}
-                    <form action="https://formsubmit.co/oluwabusayolawumi@gmail.com" method="POST" className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7 text-black">
+                    <div className="flex flex-col items-center justify-center lg:w-screen lg:max-w-[50vw] w-[70%] h-[80%] lg:mr-[5%] pb-7 text-black">
                             <div>
                                 <input  className="p-3 w-screen lg:max-w-[42vw] max-w-[70vw] m-auto py-[10px] rounded-[10px]" placeholder="Full Name*:" {...register('name')} name="name" />
                                 <p className='text-red-600 mb-[30px]'>{errors?.name?.message}</p>
@@ -109,12 +109,12 @@ const Contact = () => {
                             <textarea className=" p-3 w-screen lg:max-w-[42vw] max-w-[70vw] pb-[10px] rounded-b-[10px]" rows="8" placeholder="Enter your Message*:" {...register('message')} name="message"/>
                             <p className='text-red-600'>{errors?.message?.message}</p>
                             </div>
-                    </form>
+                    </div>
                 </div>
                 <div className="text-center pb-[10vh]">
                     <button type='submit' className="border rounded-[20px] inline-block md:py-[15px] py-[10px] md:px-[70px] px-[60px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]">Submit</button>
                 </div>
-                </form>
+            </form>
             </section>
         </div>
     </>
