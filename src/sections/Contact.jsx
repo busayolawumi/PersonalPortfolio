@@ -5,6 +5,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import { useForm } from 'react-hook-form'
 import Swal from 'sweetalert2'
 import axios from 'axios'
+import Resume from '../assets/Resume.pdf'
 
 const Contact = () => {
 
@@ -100,7 +101,7 @@ const Contact = () => {
                                 </h3><br />
                             </a>
                         </div>
-                        <a className="border rounded-[20px] inline-block py-[12px] px-[50px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]" target="_blank" href="Oluwabusayo's Resume.pdf">Download my Resume</a>
+                        <a className="border rounded-[20px] inline-block py-[12px] px-[50px] transition ease-in-out duration-200 hover:bg-white hover:text-[#051923]" target="_blank" href={Resume}>Download my Resume</a>
                     </div>
 
                     {/* MESSAGE SECTION */}
