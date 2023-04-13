@@ -1,6 +1,7 @@
 import Skytrackerpic from '../assets/Skytrackerpic.png'
 import Datafinancepic from '../assets/Datafinancepic.png'
 import Twentyfortyeightpic from '../assets/Twentyfortyeightpic.png'
+import Tictactoepic from '../assets/Tictactoepic.png'
 import Pingpongpic from '../assets/Pingpongpic.png'
 
 export const projectArray = [
@@ -26,6 +27,14 @@ export const projectArray = [
         description: "2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. Try and beat your high score.",
         languages: "• HTML • CSS • JavaScript",
         website: "https://play2048.vercel.app/",
+        isHr: true
+    },
+    {
+        imgLink : Tictactoepic,
+        name: "Tic Tac Toe",
+        description: "Tic Tac Toe (also known as X and O) is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 grid. ",
+        languages: "• ReactJS • CSS ",
+        website: "https://xando.vercel.app/",
         isHr: true
     },
     {
