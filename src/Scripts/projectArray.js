@@ -9,7 +9,7 @@ export const projectArray = [
         imgLink: Quizapppic,
         name: "Quiz App",
         description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire game show",
-        languages: "•ReactJS • CSS ",
+        languages: "• ReactJS • CSS ",
         website: "https://quizdom.vercel.app/",
         isHr: true
     },
@@ -17,7 +17,7 @@ export const projectArray = [
         imgLink: Skytrackerpic,
         name: "Sky Tracker",
         description: "This global website offers weather updates and climatological information for requested cities and countries supplied by Open Weather",
-        languages: "•ReactJS • CSS • OpenWeather API",
+        languages: "• ReactJS • CSS • OpenWeather API",
         website: "https://skytracker.vercel.app/",
         isHr: true
     },
