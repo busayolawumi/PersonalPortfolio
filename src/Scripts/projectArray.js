@@ -3,12 +3,11 @@ import Skytrackerpic from '../assets/Skytrackerpic.png'
 import Datafinancepic from '../assets/Datafinancepic.png'
 import Twentyfortyeightpic from '../assets/Twentyfortyeightpic.png'
 import Tictactoepic from '../assets/Tictactoepic.png'
-import Pingpongpic from '../assets/Pingpongpic.png'
 
 export const projectArray = [
     {
         imgLink: Quizapppic,
-        name: "Quiz Dom",
+        name: "Quiz App",
         description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire game show",
         languages: "•ReactJS • CSS ",
         website: "https://quizdom.vercel.app/",
