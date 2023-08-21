@@ -3,6 +3,7 @@ import Skytrackerpic from '../assets/Skytrackerpic.png'
 import Datafinancepic from '../assets/Datafinancepic.png'
 import Twentyfortyeightpic from '../assets/Twentyfortyeightpic.png'
 import Tictactoepic from '../assets/Tictactoepic.png'
+import Yumapppic from '../assets/Yumapppic.png'
 
 export const projectArray = [
     {
@@ -14,19 +15,19 @@ export const projectArray = [
         isHr: true
     },
     {
+        imgLink : Yumapppic,
+        name: "Yum App",
+        description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
+        languages: "• REACTJS • CSS • FOODAPI",
+        website: "https://play2048.vercel.app/",
+        isHr: false
+    },
+    {
         imgLink: Skytrackerpic,
         name: "Sky Tracker",
         description: "This global website offers weather updates and climatological information for requested cities and countries supplied by Open Weather",
         languages: "• ReactJS • CSS • OpenWeather API",
         website: "https://skytracker.vercel.app/",
-        isHr: true
-    },
-    {
-        imgLink : Datafinancepic,
-        name: "Data Finance",
-        description: "Landing page for a company that offers storage space and data analytics to other companies",
-        languages: "• ReactJS • TailwindCSS • JavaScript",
-        website: "https://datafinanceapp.vercel.app/",
         isHr: true
     },
     {
@@ -45,14 +46,14 @@ export const projectArray = [
         website: "https://play2048.vercel.app/",
         isHr: false
     },
-    {
-        imgLink : Twentyfortyeightpic,
-        name: "Yum App",
-        description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
-        languages: "• REACTJS • CSS • FOODAPI",
-        website: "https://play2048.vercel.app/",
-        isHr: false
-    },
+        // {
+    //     imgLink : Datafinancepic,
+    //     name: "Data Finance",
+    //     description: "Landing page for a company that offers storage space and data analytics to other companies",
+    //     languages: "• ReactJS • TailwindCSS • JavaScript",
+    //     website: "https://datafinanceapp.vercel.app/",
+    //     isHr: true
+    // },
     // {
     //     imgLink : Pingpongpic,
     //     name: "Ping Pong Scorer",
