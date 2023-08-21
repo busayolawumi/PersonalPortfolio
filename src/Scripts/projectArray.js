@@ -45,6 +45,14 @@ export const projectArray = [
         website: "https://play2048.vercel.app/",
         isHr: false
     },
+    {
+        imgLink : Twentyfortyeightpic,
+        name: "Yum App",
+        description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
+        languages: "• REACTJS • CSS • FOODAPI",
+        website: "https://play2048.vercel.app/",
+        isHr: false
+    },
     // {
     //     imgLink : Pingpongpic,
     //     name: "Ping Pong Scorer",
