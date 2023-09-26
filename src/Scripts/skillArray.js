@@ -4,6 +4,7 @@ import Htmlicon from '../assets/Htmlicon.png'
 import Cssicon from '../assets/Cssicon.png'
 import Bootstrapicon from '../assets/Bootstrapicon.png'
 import Wordpressicon from '../assets/Wordpressicon.png'
+import Firebaseicon from '../assets/Firebaseicon.png'
 import Reacticon from '../assets/Reacticon.png'
 
 
@@ -19,9 +20,14 @@ export const skillArray = [
         skill: "JAVASCRIPT",
     },
     {
-        imgSrc: Tailwindicon,
-        altText: "Tailwind Icon",
-        skill: "TAILWIND",
+        imgSrc: Firebaseicon,
+        altText: "Firebase Icon",
+        skill: "FIREBASE",
+    },
+    {
+        imgSrc: Wordpressicon,
+        altText: "Wordpress Icon",
+        skill: "WORDPRESS",
     },
     {
         imgSrc: Htmlicon,
@@ -34,15 +40,14 @@ export const skillArray = [
         skill: "CSS",
     },
     {
+        imgSrc: Tailwindicon,
+        altText: "Tailwind Icon",
+        skill: "TAILWIND",
+    },
+    {
         imgSrc: Bootstrapicon,
         altText: "BootStrap Icon",
         skill: "BOOTSTRAP",
     },
-    {
-        imgSrc: Wordpressicon,
-        altText: "Wordpress Icon",
-        skill: "WORDPRESS",
-    },
-
 ] 
                      

@@ -1,11 +1,19 @@
 import Quizapppic from '../assets/Quizapppic.png'
 import Skytrackerpic from '../assets/Skytrackerpic.png'
-import Datafinancepic from '../assets/Datafinancepic.png'
 import Twentyfortyeightpic from '../assets/Twentyfortyeightpic.png'
 import Tictactoepic from '../assets/Tictactoepic.png'
+import DnDgallerypic from '../assets/DnDgallerypic.jpeg'
 import Yumapppic from '../assets/Yumapppic.png'
 
 export const projectArray = [
+    {
+        imgLink: DnDgallerypic,
+        name: "DnD Gallery",
+        description: "A Gallery webpage with Drag and Drop functionality and search feature to filter based on related tags for each picture",
+        languages: "• ReactJS • Firebase • CSS ",
+        website: "https://quizdom.vercel.app/",
+        isHr: true
+    },
     {
         imgLink: Quizapppic,
         name: "Quiz App",
