@@ -7,28 +7,28 @@ import Yumapppic from '../assets/Yumapppic.png'
 
 export const projectArray = [
     {
+        imgLink : Yumapppic,
+        name: "Yum App",
+        description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
+        languages: "• ReactJS • CSS • FoodAPI",
+        website: "https://yumapp.vercel.app/",
+        isHr: false
+    },
+    {
         imgLink: DnDgallerypic,
         name: "DnD Gallery",
         description: "A Gallery webpage with Drag and Drop functionality and search feature to filter based on related tags for each picture",
         languages: "• ReactJS • Firebase • CSS ",
-        website: "https://quizdom.vercel.app/",
+        website: "https://oluwabusayo-stage3.vercel.app/gallery/",
         isHr: true
     },
     {
         imgLink: Quizapppic,
         name: "Quiz App",
-        description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire game show",
+        description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire TV game show",
         languages: "• ReactJS • CSS ",
         website: "https://quizdom.vercel.app/",
         isHr: true
-    },
-    {
-        imgLink : Yumapppic,
-        name: "Yum App",
-        description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
-        languages: "• ReactJS • CSS • FoodAPI",
-        website: "https://play2048.vercel.app/",
-        isHr: false
     },
     {
         imgLink: Skytrackerpic,
