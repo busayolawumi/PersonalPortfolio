@@ -1,6 +1,5 @@
 import React from "react";
-// import Selfie from '../assets/Selfie.png'
-import Selfie from "../assets/Selfie.jpg";
+import Selfie from "../assets/Selfie.jpeg";
 
 const About = () => {
 	return (
