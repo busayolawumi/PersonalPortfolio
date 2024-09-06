@@ -44,7 +44,7 @@ const Footer = () => {
 				</div>
 				<div className="h-screen max-h-[20vh] flex items-end sm:mr-[5%] sm:text-right text-center pb-[30px]">
 					<div>
-						<p>Would you like to support me?</p>
+						{/* <p>Would you like to support me?</p>
 						<div>
 							<a
 								target="_blank"
@@ -56,9 +56,9 @@ const Footer = () => {
 									width="200"
 								/>
 							</a>
-						</div>
+						</div> */}
 						<p>
-							Copyright &copy; 2023{" "}
+							Copyright &copy; 2020 - 2024{" "}
 							<b className="text-[#00a6fb]">
 								Olawumi Oluwabusayo.
 							</b>

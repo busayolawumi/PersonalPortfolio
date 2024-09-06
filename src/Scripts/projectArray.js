@@ -12,14 +12,6 @@ export const projectArray = [
         description: "Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
         languages: "• ReactJS • CSS • FoodAPI",
         website: "https://yumapp.vercel.app/",
-        isHr: false
-    },
-    {
-        imgLink: DnDgallerypic,
-        name: "DnD Gallery",
-        description: "A Gallery webpage with Drag and Drop functionality and search feature to filter based on related tags for each picture",
-        languages: "• ReactJS • Firebase • CSS ",
-        website: "https://oluwabusayo-stage3.vercel.app/gallery/",
         isHr: true
     },
     {
@@ -54,6 +46,14 @@ export const projectArray = [
         website: "https://play2048.vercel.app/",
         isHr: false
     },
+        // {
+    //     imgLink: DnDgallerypic,
+    //     name: "DnD Gallery",
+    //     description: "A Gallery webpage with Drag and Drop functionality and search feature to filter based on related tags for each picture",
+    //     languages: "• ReactJS • Firebase • CSS ",
+    //     website: "https://oluwabusayo-stage3.vercel.app/gallery/",
+    //     isHr: true
+    // },
         // {
     //     imgLink : Datafinancepic,
     //     name: "Data Finance",

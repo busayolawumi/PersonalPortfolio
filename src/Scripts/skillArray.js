@@ -6,6 +6,7 @@ import Bootstrapicon from '../assets/Bootstrapicon.png'
 import Wordpressicon from '../assets/Wordpressicon.png'
 import Firebaseicon from '../assets/Firebaseicon.png'
 import Reacticon from '../assets/Reacticon.png'
+import Kotlinicon from '../assets/Kotlinicon.png'
 
 
 export const skillArray = [
@@ -15,20 +16,26 @@ export const skillArray = [
         skill: "REACTJS",
     },
     {
+        imgSrc: Kotlinicon,
+        altText: "Kotlin Icon",
+        skill: "KOTLIN",
+    },
+    {
         imgSrc: Javascripticon,
         altText: "Javascript Icon",
         skill: "JAVASCRIPT",
-    },
-    {
-        imgSrc: Firebaseicon,
-        altText: "Firebase Icon",
-        skill: "FIREBASE",
     },
     {
         imgSrc: Wordpressicon,
         altText: "Wordpress Icon",
         skill: "WORDPRESS",
     },
+    {
+        imgSrc: Firebaseicon,
+        altText: "Firebase Icon",
+        skill: "FIREBASE",
+    },
+    
     {
         imgSrc: Htmlicon,
         altText: "HTML Icon",
