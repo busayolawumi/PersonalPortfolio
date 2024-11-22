@@ -15,11 +15,11 @@ export const skillArray = [
         altText: "React Icon",
         skill: "REACTJS",
     },
-    {
-        imgSrc: Kotlinicon,
-        altText: "Kotlin Icon",
-        skill: "KOTLIN",
-    },
+    // {
+    //     imgSrc: Kotlinicon,
+    //     altText: "Kotlin Icon",
+    //     skill: "KOTLIN",
+    // },
     {
         imgSrc: Javascripticon,
         altText: "Javascript Icon",
