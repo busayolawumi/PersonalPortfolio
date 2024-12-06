@@ -83,7 +83,7 @@ const Contact = () => {
 
 	return (
 		<>
-			<div id="contacts-position">
+			<div id="contacts">
 				<section className="bg-[#003554] text-white">
 					<form
 						action="https://formsubmit.co/oluwabusayolawumi@gmail.com"

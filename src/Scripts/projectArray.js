@@ -2,7 +2,9 @@ import Quizapppic from '../assets/Quizapppic.png'
 import Skytrackerpic from '../assets/Skytrackerpic.png'
 import Twentyfortyeightpic from '../assets/Twentyfortyeightpic.png'
 import Tictactoepic from '../assets/Tictactoepic.png'
-import DnDgallerypic from '../assets/DnDgallerypic.jpeg'
+import Biitechpic from '../assets/Biitechpic.png'
+import K2apic from '../assets/K2apic.png'
+import Krcpic from '../assets/Krcpic.png'
 import Yumapppic from '../assets/Yumapppic.png'
 
 export const projectArray = [
@@ -15,9 +17,31 @@ export const projectArray = [
         isHr: true
     },
     {
+        imgLink: Biitechpic,
+        name: "Biitech Solutions",
+        description: "A website for an IT solutions providing company based in the United States.",
+        languages: "• WordPress ",
+        website: "https://biitechsolutions.com/",
+        isHr: true
+    },{
+        imgLink: K2apic,
+        name: "Keys To Africa",
+        description: "A website for a Non-governmental organisation based in the US that provides services of connecting African diaspora to African communities.",
+        languages: "• WordPress ",
+        website: "https://keyz2africa.org/",
+        isHr: true
+    },{
+        imgLink: Krcpic,
+        name: "Kids Resource Centre",
+        description: "A website for a Non-governmental organisation based in Nigeria that promotes literacy and empowers kids to become educated.",
+        languages: "• WordPress ",
+        website: "https://kidsresourcecentre.org/",
+        isHr: true
+    },
+    {
         imgLink: Quizapppic,
         name: "Quiz App",
-        description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire TV game show",
+        description: "A quiz app website that is based on the famous Who Wants To Be A Millionaire TV game show.",
         languages: "• ReactJS • CSS ",
         website: "https://quizdom.vercel.app/",
         isHr: true
@@ -25,7 +49,7 @@ export const projectArray = [
     {
         imgLink: Skytrackerpic,
         name: "Sky Tracker",
-        description: "This global website offers weather updates and climatological information for requested cities and countries supplied by Open Weather",
+        description: "This global website offers weather updates and climatological information for requested cities and countries supplied by Open Weather.",
         languages: "• ReactJS • CSS • OpenWeather API",
         website: "https://skytracker.vercel.app/",
         isHr: true
@@ -33,7 +57,7 @@ export const projectArray = [
     {
         imgLink : Tictactoepic,
         name: "Tic Tac Toe",
-        description: "Tic Tac Toe (also known as X and O) is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 grid. ",
+        description: "Tic Tac Toe (also known as X and O) is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 grid.",
         languages: "• ReactJS • CSS ",
         website: "https://xando.vercel.app/",
         isHr: true

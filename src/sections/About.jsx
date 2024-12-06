@@ -17,7 +17,7 @@ const About = () => {
 							on responsive design, accessibility and pleasing
 							aesthetics.
 						</p>
-						<a href="#contacts-position" className="text-[#00a6fb]">
+						<a href="#contacts" className="text-[#00a6fb]">
 							<p>Let's make something special.</p>
 						</a>
 						{/* <!-- <button>More About Me</button> --> */}

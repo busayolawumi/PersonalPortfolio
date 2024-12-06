@@ -7,6 +7,7 @@ import Wordpressicon from '../assets/Wordpressicon.png'
 import Firebaseicon from '../assets/Firebaseicon.png'
 import Reacticon from '../assets/Reacticon.png'
 import Kotlinicon from '../assets/Kotlinicon.png'
+import Typescripticon from '../assets/Typescripticon.png'
 
 
 export const skillArray = [
@@ -15,15 +16,10 @@ export const skillArray = [
         altText: "React Icon",
         skill: "REACTJS",
     },
-    // {
-    //     imgSrc: Kotlinicon,
-    //     altText: "Kotlin Icon",
-    //     skill: "KOTLIN",
-    // },
     {
-        imgSrc: Javascripticon,
-        altText: "Javascript Icon",
-        skill: "JAVASCRIPT",
+        imgSrc: Typescripticon,
+        altText: "TypeScript Icon",
+        skill: "TYPESCRIPT",
     },
     {
         imgSrc: Wordpressicon,
@@ -45,6 +41,11 @@ export const skillArray = [
         imgSrc: Cssicon,
         altText: "CSS Icon",
         skill: "CSS",
+    },
+    {
+        imgSrc: Javascripticon,
+        altText: "Javascript Icon",
+        skill: "JAVASCRIPT",
     },
     {
         imgSrc: Tailwindicon,

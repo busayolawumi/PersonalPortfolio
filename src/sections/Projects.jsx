@@ -4,7 +4,7 @@ import { projectArray } from "../Scripts/projectArray";
 const Projects = () => {
 	return (
 		<>
-			<div id="projects-position">
+			<div id="projects">
 				<section className="text-white bg-[#051923] h-auto flex items-center justify-center ml-0 pt-[100px] pb-[30px]">
 					<div className="flex flex-col">
 						<h2 className="text-[30px] font-bold pb-[30px]">
