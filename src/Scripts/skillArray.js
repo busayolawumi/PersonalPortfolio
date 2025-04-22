@@ -4,9 +4,7 @@ import Htmlicon from "../assets/Htmlicon.png";
 import Cssicon from "../assets/Cssicon.png";
 import Bootstrapicon from "../assets/Bootstrapicon.png";
 import Wordpressicon from "../assets/Wordpressicon.png";
-import Firebaseicon from "../assets/Firebaseicon.png";
 import Reacticon from "../assets/Reacticon.png";
-import Kotlinicon from "../assets/Kotlinicon.png";
 import Typescripticon from "../assets/Typescripticon.png";
 import Nexticon from "../assets/Nexticon.png";
 
