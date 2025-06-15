@@ -9,20 +9,11 @@ import Yumapppic from "../assets/Yumapppic.png";
 
 export const projectArray = [
 	{
-		imgLink: Yumapppic,
-		name: "Yum App",
-		description:
-			"Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
-		languages: "• ReactJS • CSS • FoodAPI",
-		website: "https://yumapp.vercel.app/",
-		isHr: true,
-	},
-	{
 		imgLink: Biitechpic,
 		name: "Biitech Solutions",
 		description:
 			"A website for an IT solutions providing company based in the United States.",
-		languages: "• WordPress ",
+		languages: "• WordPress • Elementor",
 		website: "https://biitechsolutions.com/",
 		isHr: true,
 	},
@@ -31,7 +22,7 @@ export const projectArray = [
 		name: "Keys To Africa",
 		description:
 			"A website for a Non-governmental organisation based in the US that provides services of connecting African diaspora to African communities.",
-		languages: "• WordPress ",
+		languages: "• WordPress • Elementor",
 		website: "https://keyz2africa.org/",
 		isHr: true,
 	},
@@ -40,7 +31,7 @@ export const projectArray = [
 		name: "Kids Resource Centre",
 		description:
 			"A website for a Non-governmental organisation based in Nigeria that promotes literacy and empowers kids to become educated.",
-		languages: "• WordPress ",
+		languages: "• WordPress • Elementor",
 		website: "https://kidsresourcecentre.org/",
 		isHr: true,
 	},
@@ -54,23 +45,32 @@ export const projectArray = [
 		isHr: true,
 	},
 	{
+		imgLink: Yumapppic,
+		name: "Yum App",
+		description:
+			"Yumm App, a delightful recipe app offering diverse dishes, ingredients and steps to make these tasty dishes. Your kitchen companion.",
+		languages: "• ReactJS • CSS • FoodAPI",
+		website: "https://yumapp.vercel.app/",
+		isHr: true,
+	},
+	{
 		imgLink: Skytrackerpic,
 		name: "Sky Tracker",
 		description:
 			"This global website offers weather updates and climatological information for requested cities and countries supplied by Open Weather.",
 		languages: "• ReactJS • CSS • OpenWeather API",
 		website: "https://skytracker.vercel.app/",
-		isHr: true,
-	},
-	{
-		imgLink: Twentyfortyeightpic,
-		name: "2048",
-		description:
-			"2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. Try and beat your high score.",
-		languages: "• HTML • CSS • JavaScript",
-		website: "https://play2048.vercel.app/",
 		isHr: false,
 	},
+	// {
+	// 	imgLink: Twentyfortyeightpic,
+	// 	name: "2048",
+	// 	description:
+	// 		"2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. Try and beat your high score.",
+	// 	languages: "• HTML • CSS • JavaScript",
+	// 	website: "https://play2048.vercel.app/",
+	// 	isHr: false,
+	// },
 	// {
 	//     imgLink : Tictactoepic,
 	//     name: "Tic Tac Toe",
