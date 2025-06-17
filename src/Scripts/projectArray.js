@@ -3,18 +3,19 @@ import Skytrackerpic from "../assets/Skytrackerpic.png";
 import Twentyfortyeightpic from "../assets/Twentyfortyeightpic.png";
 import Tictactoepic from "../assets/Tictactoepic.png";
 import Biitechpic from "../assets/Biitechpic.png";
+import Biitechgrouppic from "../assets/Biitechgrouppic.png";
 import K2apic from "../assets/K2apic.png";
 import Krcpic from "../assets/Krcpic.png";
 import Yumapppic from "../assets/Yumapppic.png";
 
 export const projectArray = [
 	{
-		imgLink: Biitechpic,
-		name: "Biitech Solutions",
+		imgLink: Biitechgrouppic,
+		name: "Biitech Groups",
 		description:
 			"A website for an IT solutions providing company based in the United States.",
-		languages: "• WordPress • Elementor",
-		website: "https://biitechsolutions.com/",
+		languages: "• Next.js • TypeScript • Tailwind CSS",
+		website: "https://biitechgroup.com/",
 		isHr: true,
 	},
 	{
@@ -24,6 +25,15 @@ export const projectArray = [
 			"A website for a Non-governmental organisation based in the US that provides services of connecting African diaspora to African communities.",
 		languages: "• WordPress • Elementor",
 		website: "https://keyz2africa.org/",
+		isHr: true,
+	},
+	{
+		imgLink: Biitechpic,
+		name: "Biitech Solutions",
+		description:
+			"A website for an IT solutions providing company based in the United States.",
+		languages: "• WordPress • Elementor",
+		website: "https://biitechsolutions.com/",
 		isHr: true,
 	},
 	{
