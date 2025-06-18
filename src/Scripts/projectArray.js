@@ -11,7 +11,7 @@ import Yumapppic from "../assets/Yumapppic.png";
 export const projectArray = [
 	{
 		imgLink: Biitechgrouppic,
-		name: "Biitech Groups",
+		name: "Biitech Group",
 		description:
 			"A website for an IT solutions providing company based in the United States.",
 		languages: "• Next.js • TypeScript • Tailwind CSS",
